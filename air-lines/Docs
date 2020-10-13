@@ -1,1 +1,59 @@
+Flight System 
+
+Push Steps -> 
+
+Create Project On GitHub-> Create Repo -> Clone Repo To Local -> Move The Code Into Cloned Repo -> Use Command add. To Add The Files On Staging -> Use Command Commit -> The Push Origin .
+
+
+Requirments  ->
+Create DataBase airline,
+User Name ->root 
+Password -> 123
+
+After Running The Application-> You Must Hit This End Point http://localhost:8080/air-lines/home 
+this will make the Hibernate Run And Create The Needed Tables , 
+
+after That You Have To Insert The Admin User In Table Users , 
+Please Note The Password Is A (Text) and This is Wrong Possible Enhncment That I can Do Later To Make It Hashed Or Store It AS Byte  Blob Format . 
+
+Afer Admin You Will See The Top Menu That Contatin Core Features . 
+Flights - Air Lines - Places 
+
+You Can Add - Delete - List -> Update Not Implemented 
+If One Of Them Is used and you delete it No Deletion Will Happen and  You Will See A mesaage Tell You That. 
+
+For User, 
+
+The users Home Page IS http://localhost:8080/air-lines/home 
+User can Search Via Number Of Persons - Price - Date Togather . 
+
+If User Booked A Flight then He Will Move To The Details Page Will Make The User enter 
+
+Fname
+Lname 
+Phone 
+
+after Submit The User Will Be Moved To Another Page To MAke The Dummy Payment - > 
+
+Dummy Payhmet Will return UUid As Referance For This User , 
+Then The Booking Will Be Updated With This UUID And Then The Congrats Page Will Be Shown , 
+
+
+Cons In this Project Need Enhancment But Not Implmented Because Lack Of Idel Time With My Company And This is A Mini Project Also . 
+
+1- The Ui Design in all Pages . 
+2-Change Password Page  To Validate Confirm And New Password And Maybe Adding Password History . 
+3- Make User Manage His Bookings And Add Portal For Users To Track His Bookings (Not In The Requirments). 
+
+About Jira . 
+
+You Will Find all The Tasks Here https://fmg2020.atlassian.net/jira/software/c/projects/AIR/issues?filter=allissues
+
+And This is The invite Link 
+https://id.atlassian.com/invite/p/jira-software?id=GFKBiYfvQWShdKJVJ_sgFw
+
+Sprint Planned For This Project Is 3 Sprints 
+2 Sprint 2 Weeks .
+1 Sprint 1 Week And The Release Is After These Sprints 
+
 
